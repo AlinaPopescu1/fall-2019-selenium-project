@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="471ff582-4f90-4356-8bed-2f25b3e76f7e" name="Default Changelist" comment="" />
+    <list default="true" id="471ff582-4f90-4356-8bed-2f25b3e76f7e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day02_Locators/FindElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day02_Locators/FindElement.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -24,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YUzGnYdXzItUEQQe0ZcVZofLKh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -42,7 +51,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BookIt">
+  <component name="RunManager" selected="Application.VyTrack">
     <configuration name="BookIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day02_Locators.BookIt" />
       <module name="fall-2019-selenium-project" />
@@ -69,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EtsyVerifiTitle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day01_NAVIGATION.EtsyVerifiTitle" />
+    <configuration name="FindElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day02_Locators.FindElement" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day01_NAVIGATION.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day02_Locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day01_NAVIGATION.VerifyURL" />
+    <configuration name="VyTrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day02_Locators.VyTrack" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day01_NAVIGATION.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day02_Locators.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VyTrack" />
+        <item itemvalue="Application.FindElement" />
         <item itemvalue="Application.BookIt" />
         <item itemvalue="Application.CombinedMethods" />
         <item itemvalue="Application.VerifyPracticeURL" />
-        <item itemvalue="Application.VerifyURL" />
-        <item itemvalue="Application.EtsyVerifiTitle" />
       </list>
     </recent_temporary>
   </component>
@@ -130,5 +139,16 @@
       <updated>1583011867381</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
