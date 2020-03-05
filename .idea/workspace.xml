@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="471ff582-4f90-4356-8bed-2f25b3e76f7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +30,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1YUzGnYdXzItUEQQe0ZcVZofLKh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -49,13 +52,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VyTrack">
-    <configuration name="BookIt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day02_Locators.BookIt" />
+  <component name="RunManager" selected="Application.AutomationPractice">
+    <configuration name="AutomationPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.OfiiceHours1.AutomationPractice" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day01_NAVIGATION.*" />
+          <option name="PATTERN" value="com.cybertek.tests.OfiiceHours1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,12 +66,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CombinedMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day01_NAVIGATION.CombinedMethods" />
+    <configuration name="FakePractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Day03_Selenium3.FakePractice" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day01_NAVIGATION.*" />
+          <option name="PATTERN" value="com.cybertek.tests.Day03_Selenium3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day02_Locators.FindElement" />
+    <configuration name="LocatorLinkText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Day03_Selenium3.LocatorLinkText" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day02_Locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.Day03_Selenium3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VerifyPracticeURL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day01_NAVIGATION.VerifyPracticeURL" />
+    <configuration name="VeriFyLogin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Day03_Selenium3.VeriFyLogin" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day01_NAVIGATION.*" />
+          <option name="PATTERN" value="com.cybertek.tests.Day03_Selenium3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VyTrack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day02_Locators.VyTrack" />
+    <configuration name="VerifyAttributeValue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.Day03_Selenium3.VerifyAttributeValue" />
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day02_Locators.*" />
+          <option name="PATTERN" value="com.cybertek.tests.Day03_Selenium3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VyTrack" />
-        <item itemvalue="Application.FindElement" />
-        <item itemvalue="Application.BookIt" />
-        <item itemvalue="Application.CombinedMethods" />
-        <item itemvalue="Application.VerifyPracticeURL" />
+        <item itemvalue="Application.AutomationPractice" />
+        <item itemvalue="Application.LocatorLinkText" />
+        <item itemvalue="Application.VerifyAttributeValue" />
+        <item itemvalue="Application.FakePractice" />
+        <item itemvalue="Application.VeriFyLogin" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
