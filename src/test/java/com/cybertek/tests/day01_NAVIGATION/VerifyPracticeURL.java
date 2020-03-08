@@ -12,7 +12,7 @@ public class VerifyPracticeURL {
         driver.manage().window().maximize();
 
         String expectedResult = "http://practice.cybertekschool.com/";
-        String actualResult = driver.getCurrentUrl();
+        String actualResult = driver.getCurrentUrl();//validate if you are landed on the page
 
 
         if (expectedResult.equals(actualResult))
