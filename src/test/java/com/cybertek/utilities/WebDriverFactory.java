@@ -16,12 +16,10 @@ public class WebDriverFactory {
             case "Firefox":
                 WebDriverManager.firefoxdriver().setup();
                 type= new FirefoxDriver();
-
         }
         return type;
     }
     public static void main(String[] args) {
         getDriver("Chrome");
-        getDriver("Firefox");
     }
 }

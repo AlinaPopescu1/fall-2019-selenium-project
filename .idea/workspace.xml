@@ -3,14 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="471ff582-4f90-4356-8bed-2f25b3e76f7e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day01_NAVIGATION/VerifyPracticeURL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day01_NAVIGATION/VerifyPracticeURL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day04_Xpath/XpathDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/tests/day04_Xpath/XpathDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/cybertek/utilities/WebDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/fall-2019-selenium-project.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/fall-2019-selenium-project.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day04_Xpath/XpathDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/tests/day04_Xpath/XpathDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/WebDriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/cybertek/utilities/WebDriverFactory.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExportTestResults" outputFolder="$PROJECT_DIR$" userTempatePath="" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -34,98 +39,113 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build.tools" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.XpathPrcatice">
-    <configuration name="GetAttribute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day04_Xpath.GetAttribute" />
+  <component name="RunManager" selected="TestNG.RadioButtons.radioTest">
+    <configuration name="AmazonElementsList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day04_Xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day07_Assertions_TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day07_Assetions_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_Assertions_TestNG.AmazonElementsList" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetTextGetAttributeMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day04_Xpath.GetTextGetAttributeMethod" />
+    <configuration name="OrderOfTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day04_Xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day07_Assertions_TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day07_Assertions_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_Assertions_TestNG.OrderOfTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextMethodFromXpath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day04_Xpath.TextMethodFromXpath" />
+    <configuration name="RadioButtons" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day04_Xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day07_Assertions_TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day07_Assetions_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_Assertions_TestNG.RadioButtons" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDriverFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.utilities.WebDriverFactory" />
+    <configuration name="RadioButtons.radioTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day04_Xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day07_Assertions_TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day07_Assertions_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_Assertions_TestNG.RadioButtons" />
+      <option name="METHOD_NAME" value="radioTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="XpathPrcatice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day04_Xpath.XpathPrcatice" />
+    <configuration name="RadioButtons.sportsCheck" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="fall-2019-selenium-project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cybertek.tests.day04_Xpath.*" />
+          <option name="PATTERN" value="com.cybertek.tests.day07_Assertions_TestNG.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.cybertek.tests.day07_Assetions_TestNG" />
+      <option name="MAIN_CLASS_NAME" value="com.cybertek.tests.day07_Assertions_TestNG.RadioButtons" />
+      <option name="METHOD_NAME" value="sportsCheck" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.XpathPrcatice" />
-        <item itemvalue="Application.TextMethodFromXpath" />
-        <item itemvalue="Application.WebDriverFactory" />
-        <item itemvalue="Application.GetAttribute" />
-        <item itemvalue="Application.GetTextGetAttributeMethod" />
+        <item itemvalue="TestNG.RadioButtons.radioTest" />
+        <item itemvalue="TestNG.OrderOfTest" />
+        <item itemvalue="TestNG.RadioButtons.sportsCheck" />
+        <item itemvalue="TestNG.RadioButtons" />
+        <item itemvalue="TestNG.AmazonElementsList" />
       </list>
     </recent_temporary>
   </component>
@@ -154,5 +174,93 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="769" y="108" width="571" height="684" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1584808188793">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="769" y="108" width="571" height="684" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584808188793" />
+    <state x="769" y="123" width="571" height="631" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584490711736" />
+    <state width="1398" height="142" key="GridCell.Tab.0.bottom" timestamp="1584839669317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="142" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584839669317" />
+    <state width="1398" height="323" key="GridCell.Tab.0.bottom/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584805829855" />
+    <state width="659" height="69" key="GridCell.Tab.0.bottom/0.23.1440.831@0.23.1440.831" timestamp="1584223569031" />
+    <state width="729" height="240" key="GridCell.Tab.0.bottom/0.23.1440.832/-1920.23.1920.1057@0.23.1440.832" timestamp="1584744566337" />
+    <state width="736" height="69" key="GridCell.Tab.0.bottom/0.23.1440.832@0.23.1440.832" timestamp="1584212468414" />
+    <state width="736" height="257" key="GridCell.Tab.0.bottom/0.23.1440.833@0.23.1440.833" timestamp="1584212527408" />
+    <state width="1398" height="142" key="GridCell.Tab.0.center" timestamp="1584839669316">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="142" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584839669316" />
+    <state width="1398" height="323" key="GridCell.Tab.0.center/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584805829853" />
+    <state width="659" height="69" key="GridCell.Tab.0.center/0.23.1440.831@0.23.1440.831" timestamp="1584223569030" />
+    <state width="729" height="240" key="GridCell.Tab.0.center/0.23.1440.832/-1920.23.1920.1057@0.23.1440.832" timestamp="1584744566336" />
+    <state width="736" height="69" key="GridCell.Tab.0.center/0.23.1440.832@0.23.1440.832" timestamp="1584212468413" />
+    <state width="736" height="257" key="GridCell.Tab.0.center/0.23.1440.833@0.23.1440.833" timestamp="1584212527407" />
+    <state width="1398" height="142" key="GridCell.Tab.0.left" timestamp="1584839669315">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="142" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584839669315" />
+    <state width="1398" height="323" key="GridCell.Tab.0.left/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584805829853" />
+    <state width="659" height="69" key="GridCell.Tab.0.left/0.23.1440.831@0.23.1440.831" timestamp="1584223569029" />
+    <state width="729" height="240" key="GridCell.Tab.0.left/0.23.1440.832/-1920.23.1920.1057@0.23.1440.832" timestamp="1584744566336" />
+    <state width="736" height="69" key="GridCell.Tab.0.left/0.23.1440.832@0.23.1440.832" timestamp="1584212468413" />
+    <state width="736" height="257" key="GridCell.Tab.0.left/0.23.1440.833@0.23.1440.833" timestamp="1584212527407" />
+    <state width="1398" height="142" key="GridCell.Tab.0.right" timestamp="1584839669317">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="142" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584839669317" />
+    <state width="1398" height="323" key="GridCell.Tab.0.right/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584805829854" />
+    <state width="659" height="69" key="GridCell.Tab.0.right/0.23.1440.831@0.23.1440.831" timestamp="1584223569030" />
+    <state width="729" height="240" key="GridCell.Tab.0.right/0.23.1440.832/-1920.23.1920.1057@0.23.1440.832" timestamp="1584744566337" />
+    <state width="736" height="69" key="GridCell.Tab.0.right/0.23.1440.832@0.23.1440.832" timestamp="1584212468413" />
+    <state width="736" height="257" key="GridCell.Tab.0.right/0.23.1440.833@0.23.1440.833" timestamp="1584212527407" />
+    <state width="1398" height="398" key="GridCell.Tab.1.bottom" timestamp="1584800701664">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="398" key="GridCell.Tab.1.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584800701664" />
+    <state width="1398" height="398" key="GridCell.Tab.1.bottom/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584800630485" />
+    <state width="659" height="69" key="GridCell.Tab.1.bottom/0.23.1440.831@0.23.1440.831" timestamp="1584223569031" />
+    <state width="1398" height="398" key="GridCell.Tab.1.center" timestamp="1584800701663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="398" key="GridCell.Tab.1.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584800701663" />
+    <state width="1398" height="398" key="GridCell.Tab.1.center/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584800630484" />
+    <state width="659" height="69" key="GridCell.Tab.1.center/0.23.1440.831@0.23.1440.831" timestamp="1584223569031" />
+    <state width="1398" height="398" key="GridCell.Tab.1.left" timestamp="1584800701662">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="398" key="GridCell.Tab.1.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584800701662" />
+    <state width="1398" height="398" key="GridCell.Tab.1.left/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584800630483" />
+    <state width="659" height="69" key="GridCell.Tab.1.left/0.23.1440.831@0.23.1440.831" timestamp="1584223569031" />
+    <state width="1398" height="398" key="GridCell.Tab.1.right" timestamp="1584800701663">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="398" key="GridCell.Tab.1.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584800701663" />
+    <state width="1398" height="398" key="GridCell.Tab.1.right/0.23.1440.831/-1920.23.1920.1057@0.23.1440.831" timestamp="1584800630484" />
+    <state width="659" height="69" key="GridCell.Tab.1.right/0.23.1440.831@0.23.1440.831" timestamp="1584223569031" />
+    <state x="431" y="167" key="RollbackChangesDialog" timestamp="1584804795087">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="431" y="167" key="RollbackChangesDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584804795087" />
+    <state x="0" y="180" key="Vcs.Push.Dialog.v2" timestamp="1584218547713">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="0" y="180" key="Vcs.Push.Dialog.v2/0.23.1440.831@0.23.1440.831" timestamp="1584218547713" />
+    <state x="178" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584204622034">
+      <screen x="0" y="23" width="1440" height="831" />
+    </state>
+    <state x="178" y="363" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.831@0.23.1440.831" timestamp="1584204622034" />
+    <state x="533" y="285" key="export.test.results" timestamp="1584804033221">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="285" key="export.test.results/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1584804033221" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/fall_2019_selenium_project$TaskTC12.ic" NAME="TaskTC12 Coverage Results" MODIFIED="1584747635606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.cybertek.tests.day07_Assetions_TestNG.*</FILTER>
+    </SUITE>
   </component>
 </project>

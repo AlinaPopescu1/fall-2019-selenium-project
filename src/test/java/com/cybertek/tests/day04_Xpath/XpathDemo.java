@@ -30,6 +30,7 @@ public class XpathDemo {
         String expected = "Your e-mail's been sent!";
         WebElement message = driver.findElement(By.name("confirmation_message"));
         String actual = message.getText();
+        System.out.println(actual);
 
         boolean var1 = expected.equals(actual);
         System.out.println("Result is: "+var1);
