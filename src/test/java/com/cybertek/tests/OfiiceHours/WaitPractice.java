@@ -1,6 +1,5 @@
-package com.cybertek.tests.OfiiceHours1;
+package com.cybertek.tests.OfiiceHours;
 import com.cybertek.base.TestBase;
-import com.cybertek.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;

@@ -1,4 +1,4 @@
-package com.cybertek.tests.OfiiceHours1;
+package com.cybertek.tests.OfiiceHours;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

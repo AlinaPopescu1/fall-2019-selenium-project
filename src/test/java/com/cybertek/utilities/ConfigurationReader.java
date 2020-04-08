@@ -17,6 +17,8 @@ public class ConfigurationReader {
             e.printStackTrace();
         }
     }
+    //try with resource, try/catch block can take a parameter, AutoCloseable
+
     public static String getProperty(String key){
         return properties.getProperty(key);
 

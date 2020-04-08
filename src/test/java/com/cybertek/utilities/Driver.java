@@ -12,6 +12,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.safari.SafariDriver;
 public class Driver {
     //private constructor so nobody can create object from it
+    //lock this driver only for this class, so it can
     private Driver() {}
     //static so we can share the driver between classes(tests)
     private static WebDriver driver;
@@ -60,9 +61,19 @@ public class Driver {
         return driver;
     }
     public static void closeDriver(){
+        //first time I call it will be null
         //the second time I will open the browser will not be null
         //I have to make it null in order to instantiate another driver
         driver.quit();
         driver = null;
+        //close the browser if there is browser
+
+        //if the driver does not exist and you try to close it,
+        // you'll get an error "Session does not exist"
+
+//        if(driver!=null){   //this is allowed too
+//            driver.quit();
+//            driver=null;
+//        }
     }
 }

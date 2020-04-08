@@ -20,6 +20,7 @@ public class WebTables extends TestBase {
         WebElement tableOne = driver.findElement(By.xpath("//table[@id='table1']"));
         System.out.println(tableOne.getText());
     }
+
     @Test//TODO print the headers
     public void headers() {
         List<WebElement> headers = driver.findElements(By.xpath("//table[@id='table1']//th"));
@@ -29,6 +30,7 @@ public class WebTables extends TestBase {
         WebElement email = driver.findElement(By.xpath("//table[@id='table1']//td[.='Jason']/../td[3]"));
         System.out.println("email= " + email.getText());
     }
+
     @Test //TODO get table size
     public void size() {
         //get nr of cols
@@ -41,6 +43,7 @@ public class WebTables extends TestBase {
         List<WebElement> rowsNotIncludingHeader = driver.findElements(By.xpath("//table[@id='table1']//tbody//tr"));
         System.out.println("Numbers of rowsNotIncludingHeader: " + rowsNotIncludingHeader.size());
     }
+
     @Test //TODO GET SINGLE ROW BY INDEX
     public void getSingleRowByIndex() {
         //TODO get the first row (in the body)
@@ -51,47 +54,59 @@ public class WebTables extends TestBase {
         row = driver.findElement(By.xpath(xpath));
         System.out.println(row.getText());
     }
-        @Test
-        public void getSingleBasedByIndex(){
-            WebElement cell = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[1]/td[1]"));
-            System.out.println(cell.getText());
-
-        String xpath1 = getCellpathByIndex(2,4);
-        cell = driver.findElement(By.xpath(xpath1));
+    @Test
+    public void getSingleBasedByIndex() {
+        WebElement cell = driver.findElement(By.xpath("//table[@id='table1']/tbody/tr[1]/td[1]"));
         System.out.println(cell.getText());
 
+        String xpath1 = getCellpathByIndex(2, 4);
+        cell = driver.findElement(By.xpath(xpath1));
+        System.out.println(cell.getText());
     }
     // TODO getTableRowXpath based on index
     public static String getTableRowXpath(int index) {
         String xpath2 = "//table[@id='table1']/tbody/tr[" + index + "]";
         return xpath2;
     }
-    public static String getCellpathByIndex(int row,int column){
-            String xpath3 = "//table[@id='table1']/tbody/tr["+row+"]/td["+column+"]";
-            return xpath3;
-        }
 
-        @Test //go through the table using loops and get all values
-    public void allValues(){
+    public static String getCellpathByIndex(int row, int column) {
+        String xpath3 = "//table[@id='table1']/tbody/tr[" + row + "]/td[" + column + "]";
+        return xpath3;
+    }
+
+    @Test //go through the table using loops and get all values
+    public void allValues() {
         //get number of rows
-            int rowCount = getRowCount();
-            //get number of cols
-            int colsCount = getColsCount();
+        int rowCount = getRowCount();
+        //get number of cols
+        int colsCount = getColsCount();
 
-            for (int i = 1; i <=rowCount ; i++) {
-                for (int j = 1; j <=colsCount ; j++) {
-                    String xpath = getCellpathByIndex(i, j);
-                    WebElement cell = driver.findElement(By.xpath(xpath));
-                    System.out.println(cell.getText());
-                 }
+        for (int i = 1; i <= rowCount; i++) {
+            for (int j = 1; j <= colsCount; j++) {
+                String xpath = getCellpathByIndex(i, j);
+                WebElement cell = driver.findElement(By.xpath(xpath));
+                System.out.println(cell.getText());
             }
-       }
+        }
+    }
+
+    @Test
+    public void getCellValue(){
+        String firstName = "Jason";
+        String xpath = "table[@id='table1']//td[2][.='"+firstName+"']/../td[4]";
+        WebElement amount = driver.findElement(By.xpath(xpath));
+        System.out.println(amount);
+    }
         public int getRowCount(){
         return driver.findElements(By.xpath("//table[@id='table1']//tbody//tr")).size();
         }
         public int getColsCount(){
         return driver.findElements(By.xpath("//table[@id='table1']//th")).size();
         }
+    public String getXpathForValue(String value, String columnIdx){
+        String xPath = "/table[@id='table1']//td[.='" + value + "']/../td[" + columnIdx + "]";
+        return xPath;
+    }
     }
 
 

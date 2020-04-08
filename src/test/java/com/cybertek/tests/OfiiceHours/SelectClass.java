@@ -1,4 +1,4 @@
-package com.cybertek.tests.OfiiceHours1;
+package com.cybertek.tests.OfiiceHours;
 import com.cybertek.utilities.BrowserUtils;
 import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
@@ -9,7 +9,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import java.util.ArrayList;
+
 import java.util.Arrays;
 import java.util.List;
 

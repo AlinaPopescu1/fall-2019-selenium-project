@@ -1,4 +1,4 @@
-package com.cybertek.tests.OfiiceHours1;
+package com.cybertek.tests.OfiiceHours;
 import com.cybertek.base.TestBase;
 import com.cybertek.utilities.ConfigurationReader;
 import org.openqa.selenium.chrome.ChromeDriver;
